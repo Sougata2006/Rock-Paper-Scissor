@@ -7,7 +7,7 @@ Randomized computer moves for a fair challenge.
 Results displayed after each round.
 ---------------------------------------------------------
 🛠️ Technology Stack
-Language: C
+Language: C 
 ---------------------------------------------------------
 📂 File Structure
 rock_paper_scissors.c - Main source code for the game.
