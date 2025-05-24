@@ -2,17 +2,20 @@
 #include <stdlib.h>
 #include <time.h>
 int main (){
+    
 /*
 0=rock
 1=paper
 2=scissor
 */
+    
 srand (time(0));
 int player;
 int computer = rand()% 3;
 
 printf("0 for rock \n1 for paper \n2 for scissors \nchoose your number\n");
 scanf("%d",&player);
+
 if(player>2||player<0)
 {
     printf("enter a valid number ");
